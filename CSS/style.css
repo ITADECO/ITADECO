@@ -1,17 +1,67 @@
-/*paleta*/
-#e0dedf
-#81754d
-#4c5042
-/*header*/
-header img{
-width: 150px;
+
+/*header*/ 
+
+header ul{
+    list-style: none;
 }
+ul a{ color: #a1a0a0
+}
+ul a{
+     text-decoration: none;
+    font-size: 2rem;
+font-family: Arial, Helvetica, sans-serif;}
+}
+.logo{
+    width: 50px ; height: 50px;;
+}
+    
 
 h1{
+    font-size: 220px;
+    font-family: Monotype Corsiva;
     color: #000000;
+
+}
+h2{
+    font-size: 100px;
+    font-family: Monotype Corsiva;
+    color: #000000;
+    text-align: center;
+}
+.deco{
+    font-size: 150px; 
+    font-family: Microsoft New Tai Lue ;
+    color: #a1a0a0;
+
+}
+.subtitulo p{
+    font-family: EngraversGothic BT ;
+    font-size:55px ;
+    color: #81754d;
     
 
 }
+.espejos p{
+    text-align: center;
+}
+
+
+
+
+
+.portada{
+}
 body{
     background-color: #e0dedf 
+}
+.principal{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+.principal > div{
+    width: 200%;
+    padding: 50px;
 }
