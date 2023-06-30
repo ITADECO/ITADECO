@@ -55,7 +55,7 @@ h1{
     font-size: 220px;
     font-family: Monotype Corsiva;
     color: #000000;
-    padding:0px 90px;
+    padding:100px 100px;
 
 }
 
@@ -98,12 +98,17 @@ h1{
     color:#81754d;
     font-family:  Monotype Corsiva;
     padding:0px 100px;
+    justify-content: space-evenly;
     
-
     
+}
+.padreiconos img{
+    display: flex;
+    width: 50%;
 }
 .iconos p{
     font-size: 3.5rem;
+    
     
 }
 .iconos img{
@@ -116,8 +121,10 @@ h1{
     display: flex;
 }
 
-.bienvenida, img{
-    padding-bottom: 50px;
+.bienvenida img{
+    width: 50%;
+    padding:50px 50px;
+
 }
 
 .h3subtitulo{
@@ -158,15 +165,14 @@ h1{
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-color: #a1a0a0;
+    align-items: center;
+    
+    
 }
 footer img{ 
     width: 130px ; height: 80px;
     
-}
-footer ul{
-   
 }
 
 footer h4{
@@ -176,12 +182,54 @@ footer h4{
 footer h5{
     font-size: 15px;
 }
+.divpadre{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+
+}
 
 
 /**nosotros**/
 .nosotros p{
-    font-size:35px ;
+    font-size:30px ;
     color:#a1a0a0; 
     padding:0px 100px;
+    justify-content: space-between;
     
+}
+.mensajes{
+    display: flex;
+}
+
+.box{
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
+
+.box .cabezera{
+    border-radius: 7px;
+    padding: 10px;
+    color:  #4c5042;
+    font-size: 40px;
+    font-family: EngraversGothic BT ;
+}
+
+.faqs{
+    padding: 10px 20px;
+}
+
+details {
+    background-color: #4c5042;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.horario{
+    display: flex;
+    justify-content: center;
 }
